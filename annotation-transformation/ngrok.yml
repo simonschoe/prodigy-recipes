@@ -1,0 +1,22 @@
+tunnels:
+    coder-a:
+        proto: http
+        addr: 8080
+        # subdomain: transformation-coder-1
+        # basic_auth:
+        #     - "login-name:password"
+    coder-b:
+        proto: http
+        addr: 8081
+        # subdomain: transformation-coder-2
+        # basic_auth:
+        #     - "login-name:password"
+    coder-c:
+        proto: http
+        addr: 8082
+        # subdomain: transformation-coder-3
+        # basic_auth:
+        #     - "login-name:password"
+version: "2"
+region: eu
+authtoken: {token}

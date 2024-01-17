@@ -1,0 +1,73 @@
+{"label": "STRAT_CEO", "pattern": [{"lower": "chief"}, {"lower": {"REGEX": "exe\\w+"}}, {"lower": "officer", "OP": "?"}]}
+{"label": "STRAT_CEO", "pattern": [{"lower": "ceo"}]}
+{"label": "STRAT_CEO", "pattern": [{"lower": {"NOT_IN": ["vice"]}}, {"lower": "president"}]}
+{"label": "STRAT", "pattern": [{"lower": "chief"}, {"lower": {"REGEX": "dev\\w+"}}, {"lower": "officer", "OP": "?"}]}
+{"label": "STRAT", "pattern": [{"lower": {"REGEX": "strateg\\w+"}}]}
+{"label": "STRAT", "pattern": [{"lower": "business"}, {"lower": {"REGEX": "develop\\w+"}}]}
+{"label": "STRAT", "pattern": [{"lower": "corporate"}, {"lower": {"REGEX": "develop\\w+"}}]}
+{"label": "STRAT", "pattern": [{"lower": "of"}, {"lower": {"REGEX": "develop\\w+"}}]}
+{"label": "FIN_CFO", "pattern": [{"lower": "chief"}, {"lower": {"REGEX": "fin\\w+"}}, {"lower": "officer", "OP": "?"}]}
+{"label": "FIN_CFO", "pattern": [{"lower": "cfo"}]}
+{"label": "FIN", "pattern": [{"lower": "accounting"}]}
+{"label": "FIN", "pattern": [{"lower": "controller"}]}
+{"label": "FIN", "pattern": [{"lower": {"REGEX": "financ\\w+"}}]}
+{"label": "FIN", "pattern": [{"lower": "credit"}]}
+{"label": "FIN", "pattern": [{"lower": {"REGEX": "treasur\\w+"}}]}
+{"label": "RISK", "pattern": [{"lower": "risk"}]}
+{"label": "RISK", "pattern": [{"lower": "cro"}]}
+{"label": "LEGAL", "pattern": [{"lower": "legal"}]}
+{"label": "LEGAL", "pattern": [{"lower": "compliance"}]}
+{"label": "LEGAL", "pattern": [{"lower": "counsel"}]}
+{"label": "LEGAL", "pattern": [{"lower": "regulatory"}, {"lower": "affairs", "OP": "?"}]}
+{"label": "INV", "pattern": [{"lower": {"REGEX": "investments?"}}]}
+{"label": "INV", "pattern": [{"lower": "asset"}]}
+{"label": "OPS", "pattern": [{"lower": "chief"}, {"lower": {"REGEX": "operat\\w+"}}, {"lower": "officer", "OP": "?"}]}
+{"label": "OPS", "pattern": [{"lower": "coo"}]}
+{"label": "OPS", "pattern": [{"lower": "supply"}, {"lower": "chain"}]}
+{"label": "OPS", "pattern": [{"lower": {"REGEX": "operat\\w+"}}]}
+{"label": "OPS", "pattern": [{"lower": "production"}]}
+{"label": "MAR", "pattern": [{"lower": "chief"}, {"lower": "sales", "OP": "?"}, {"lower": "and", "OP": "?"}, {"lower": {"REGEX": "market\\w+"}}, {"lower": "officer", "OP": "?"}]}
+{"label": "MAR", "pattern": [{"lower": "chief"}, {"lower": {"REGEX": "adv\\w+"}}, {"lower": "officer", "OP": "?"}]}
+{"label": "MAR", "pattern": [{"lower": "cmo"}]}
+{"label": "MAR", "pattern": [{"lower": "cco"}]}
+{"label": "MAR", "pattern": [{"lower": {"REGEX": "commerc\\w+"}}, {"lower": {"NOT_IN": ["operation", "operations"]}, "OP": "?"}]}
+{"label": "MAR", "pattern": [{"lower": {"REGEX": "sale\\w*"}}]}
+{"label": "MAR", "pattern": [{"lower": {"REGEX": "merchand\\w*"}}]}
+{"label": "MAR", "pattern": [{"lower": "customer"}]}
+{"label": "MAR", "pattern": [{"lower": "consumer"}]}
+{"label": "MAR", "pattern": [{"lower": {"REGEX": "store\\w*"}}]}
+{"label": "MAR", "pattern": [{"lower": "marketing"}]}
+{"label": "MAR", "pattern": [{"lower": "revenue"}]}
+{"label": "MAR", "pattern": [{"lower": "market"}, {"lower": "intelligence"}]}
+{"label": "TECH", "pattern": [{"lower": "chief"}, {"lower": {"REGEX": "tech\\w+"}}, {"lower": "officer", "OP": "?"}]}
+{"label": "TECH", "pattern": [{"lower": "chief"}, {"lower": {"REGEX": "inform\\w+"}}, {"lower": "officer", "OP": "?"}]}
+{"label": "TECH", "pattern": [{"lower": "chief"}, {"lower": {"REGEX": "data\\w+"}}, {"lower": "officer", "OP": "?"}]}
+{"label": "TECH", "pattern": [{"lower": "chief"}, {"lower": "security"}, {"lower": "officer", "OP": "?"}]}
+{"label": "TECH", "pattern": [{"lower": "chief"}, {"lower": "data"}, {"lower": "officer", "OP": "?"}]}
+{"label": "TECH", "pattern": [{"lower": "cto"}]}
+{"label": "TECH", "pattern": [{"lower": "cio"}]}
+{"label": "TECH", "pattern": [{"lower": "cso"}]}
+{"label": "TECH", "pattern": [{"lower": "cdo"}]}
+{"label": "TECH", "pattern": [{"lower": {"REGEX": "techn\\w+"}}]}
+{"label": "TECH", "pattern": [{"lower": "research"}]}
+{"label": "TECH", "pattern": [{"lower": "innovation"}]}
+{"label": "TECH", "pattern": [{"lower": "r&d"}]}
+{"label": "TECH", "pattern": [{"lower": "it"}]}
+{"label": "TECH", "pattern": [{"lower": {"REGEX": "scien\\w+"}}]}
+{"label": "TECH", "pattern": [{"lower": {"REGEX": "enginee\\w+"}}]}
+{"label": "TECH", "pattern": [{"lower": "security"}]}
+{"label": "MED", "pattern": [{"lower": "chief"}, {"lower": {"REGEX": "medic\\w+"}}, {"lower": "officer", "OP": "?"}]}
+{"label": "MED", "pattern": [{"lower": "clinical"}]}
+{"label": "MED", "pattern": [{"lower": "biology"}]}
+{"label": "IR", "pattern": [{"lower": "ir"}]}
+{"label": "IR", "pattern": [{"lower": {"REGEX": "relation\\w+"}}]}
+{"label": "IR", "pattern": [{"lower": {"REGEX": "corpor\\w+"}, "OP": "?"}, {"lower": {"REGEX": "communic\\w+"}}]}
+{"label": "PROD", "pattern": [{"lower": "chief"}, {"lower": {"REGEX": "product\\w*"}}, {"lower": "officer", "OP": "?"}]}
+{"label": "PROD", "pattern": [{"lower": "cpo"}]}
+{"label": "PROD", "pattern": [{"lower": {"REGEX": "products?"}}]}
+{"label": "CHAIR", "pattern": [{"lower": "chairman"}]}
+{"label": "CHAIR", "pattern": [{"lower": "chairwoman"}]}
+{"label": "ADMIN", "pattern": [{"lower": "chief"}, {"lower": {"REGEX": "admin\\w+"}}, {"lower": "officer", "OP": "?"}]}
+{"label": "ADMIN", "pattern": [{"lower": "cao"}]}
+{"label": "ADMIN", "pattern": [{"lower": "administration"}]}
+{"label": "TRANSF", "pattern": [{"lower": {"REGEX": "transf\\w+"}}]}

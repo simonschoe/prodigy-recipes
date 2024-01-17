@@ -1,0 +1,7 @@
+tunnels:
+    coder:
+        proto: http
+        addr: 8080
+version: "2"
+region: eu
+authtoken: {token}
